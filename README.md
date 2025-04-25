@@ -19,6 +19,13 @@ Context 'localhost:8080' updated
 <strong> >argocd login localhost:8080 </strong>
 
 <h2>creating application</h2>
-<strong>>argocd app create app-1 --repo https://github.com/jyotishsolutions/kubernetes-argocd.git --path guestbook --dest-server https://kubernetes.default.svc --dest-namespace default </strong>
+create git repo https://github.com/jyotishsolutions/kubernetes-argocd.git
+
+the repo should contain folder guestbook and in that folder we should ahve deployment and svc yaml files.
+
+<strong>
+>argocd app create app-1 --repo https://github.com/jyotishsolutions/kubernetes-argocd.git --path guestbook --dest-server https://kubernetes.default.svc --dest-namespace default 
+
+</strong>
 
 
