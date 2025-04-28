@@ -29,3 +29,12 @@ the repo should contain folder guestbook and in that folder we should ahve deplo
 </strong>
 
 
+you can use the above command or this yaml file for creating project.
+
+
+https://github.com/jyotishsolutions/argocd-course-apps-definitions/blob/main/applications%20and%20projects/application.yaml
+
+
+
+
+
